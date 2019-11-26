@@ -32,3 +32,6 @@ jobs:
       run: |
         pip install pytest
         pytest
+for i in range(500):
+    print(2**i - 1)
+  
